@@ -11,4 +11,4 @@ User queries are often ambiguous. For example, a user who issues a query [jaguar
 
 If the precision@10 of the results from Step 2 for the relevance judgments of Step 3 is greater than or equal to the target value, then we stop. If the precision@10 of the results is zero, then also we stop. Otherwise, we use the pages marked as relevant to automatically (i.e., with no further human input at this point) derive new words that are likely to identify more relevant pages. We modify the current user query by adding to it the newly derived words in the best possible order, as determined in Step 4, and go to Step 2.
 
-Refer to attached ReadMe for project pre-requisites and execution instructions.
+Please refer to attached instructions.pdf for project pre-requisites and execution instructions.
